@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- INTEGRATION DU HEADER ICI -->
+  <header>
+    <p>Panier : <span>0</span> article(s)</p>
+  </header>
+
+  <!-- INTEGRATION DE LA SECTION PRODUIT ICI -->
+  <section id="product">
+
+    <div class="intro">
+      <img src="montre.jpg" alt="montre-de-luxe">
+    </div>
+
+    <div class="intro">
+      <h1>MONTRE DELUXE</h1>
+      <h2>Prix : 80€</h2>
+      <h2>Description</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+      <button id="add">Ajouter au panier</button>
+      <button id="remove">Retirer du panier</button>
+    </div>
+  </section>
+
+  <!-- section FORMULAIRE DES AVIS -->
+  <section id="comments">
+
+    <h2>DONNEZ-NOUS VOTRE AVIS</h2>
+
+    <div id="avis">
+      <div id="left">
+        <p>
+          <label>Titre</label>
+          <input type="text" id="titleInput">
+        </p>
+        <p>
+          <label>Commentaire</label>
+          <textarea id="contentInput"></textarea>
+        </p>
+        <p>
+          <button id="avisButton">Donner mon avis</button>
+        </p>
+      </div>
+
+      <div id="right">
+        <div class="commentaire">
+          <h4>Titre: Une excellente montre !</h4>
+          <p>Commentaire : Très bon produit, fiable et à un bon prix. Je recommande</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
